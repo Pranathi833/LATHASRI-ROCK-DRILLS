@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-wrapper{
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(254, 255, 255);
+}
+
+.head{
+    width: 100%;
+    margin-top: 25px;
+    padding: 50px;
+    background-color: #f4f3f3;
+    font-size: 30px;
+}
+.head h1{
+    text-align: center;
+}
+/* Product grid container */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+/* Individual product card */
+.image-wrapper {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f4f3f3;
+    transition: transform 0.2s;
+    margin: 30px;
+}
+
+.image-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image styling */
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* Product title and price styling */
+.image-wrapper h2 {
+    font-size: 25px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 1em;
+    color: #ccc;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Footer links styling */
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #00aaff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0088cc;
+}
+
+/* Footer bottom styling */
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    color: #ccc;
+}
+

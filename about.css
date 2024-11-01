@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    background-color: rgb(254, 255, 255);
+}
+
+.head{
+    width: 100%;
+    margin-top: 25px;
+    padding: 50px;
+    background-color: #f4f3f3;
+    font-size: 30px;
+}
+.head h1{
+    text-align: center;
+}
+.para{
+    text-align:justify;
+    padding: 30px;
+    margin: 20px;
+}
+.official-add-sec {
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #f1f1f1;
+    padding: 30px;
+}
+.msme-bx-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+.msme-bx-flex li {
+    width: 25%;
+    margin: 12px 0;
+    padding-left: 15px;
+    border-left: 2px solid #323131;
+}
+.msme-bx-flex li p {
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.msme-bx-flex li span {
+    font-weight: 500;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+span, p {
+    font-size: 18px;
+}
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 20px;
+}
+li {
+    list-style: none;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 1em;
+    color: #ccc;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Footer links styling */
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #00aaff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0088cc;
+}
+
+/* Footer bottom styling */
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    color: #ccc;
+}
